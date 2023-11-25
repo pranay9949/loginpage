@@ -1,0 +1,117 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+   justify-content: center;
+   background-image: url("./images/Background Pattern.png");
+    align-items: center;
+   
+}
+.card1{
+    background-color: #ffffff;
+    width:400px;
+    height:500px;
+    box-shadow: 5px 5px  5px  rgb(222, 219, 219);
+    padding: 10px;
+    margin-left: 15px;
+ 
+   
+   color:#333333;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    background-color: #ffffff;
+    width:400px;
+    height:500px;
+    box-shadow: 5px 5px  5px  rgb(222, 219, 219);
+    padding: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border: 1px solid rgb(248, 242, 242);
+   color:#333333;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profileContainer{
+   background-image: url("./images/Background\ Pattern\ \(1\).png");
+   display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+
+   justify-content: center;
+   align-items: center;
+  
+
+}
+.display{
+    display: none;
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.passDisplay{
+    display: none;
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.welcomeMsg{
+    color: #757575;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.header{
+    color:#333333;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    margin-top: 0px;
+}
+.inputName{
+    color:#333333;
+
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:52px;
+    
+}
+input{
+    width:80%;
+    height: 20px;
+    outline: none;
+    margin-block: 10px;
+}
+#btn{
+    width: 82%;
+    height:35px;
+   margin-top: 25px;
+   background-color: #534cf0;
+   color:#ffffff;
+   border: none;
+   border-radius: 10px;
+}
+#btn:hover{
+    background-color: #271fbc;
+}
+.special{
+    color:red;
+}
+.signHeader{
+    color:#534cf0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline;
+}
+#log{
+    width: 82%;
+    height:35px;
+   margin-top: 25px;
+   background-color: #534cf0;
+   color:#ffffff;
+   border: none;
+   border-radius: 10px;
+}
+#log:hover{
+    background-color: #271fbc;
+}
